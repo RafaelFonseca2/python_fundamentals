@@ -121,15 +121,15 @@
 # print(soma(2, 3, 4))
 
 # EX10
-from functools import reduce
+# from functools import reduce
 
-numeros = [2,3,4,5,6,7,8,9,10,11]
+# numeros = [2,3,4,5,6,7,8,9,10,11]
 
-dobro = list(map(lambda x: x * 2, numeros))
-numeros_par = list(filter(lambda x: x % 2 == 0, numeros))
-soma = reduce(lambda x, y: x + y, numeros)
+# dobro = list(map(lambda x: x * 2, numeros))
+# numeros_par = list(filter(lambda x: x % 2 == 0, numeros))
+# soma = reduce(lambda x, y: x + y, numeros)
 
-print(soma)
+# print(soma)
 # print(numeros_par)
 # print(dobro)
 
