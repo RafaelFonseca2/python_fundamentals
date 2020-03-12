@@ -1,11 +1,10 @@
+import sys
 
 
 
-def mod():
-    print('mod')
+for i in range(len(sys.argv)):
+    if i == 0:
+        print(f'Função: {sys.argv[0]}')
+    else:
+        print(f'{i}. argumento: {sys.argv[i]}')
 
-def mod2():
-    print('mod 2')
-
-
-    
